@@ -1,0 +1,244 @@
+{
+  "transactions": [
+    {
+      "id": "txn_001",
+      "counterpartyName": "Stripe",
+      "amount": 12450.0,
+      "postedAt": "2026-10-31T16:05:00Z",
+      "status": "pending",
+      "method": "ACH",
+      "category": "Revenue",
+      "note": "Weekly payout"
+    },
+    {
+      "id": "txn_002",
+      "counterpartyName": "Amazon Web Services",
+      "amount": -1240.18,
+      "postedAt": "2026-10-31T09:12:00Z",
+      "status": "pending",
+      "method": "Card",
+      "category": "Software",
+      "note": null
+    },
+    {
+      "id": "txn_003",
+      "counterpartyName": "Gusto Payroll",
+      "amount": -48210.55,
+      "postedAt": "2026-10-30T13:00:00Z",
+      "status": "posted",
+      "method": "ACH",
+      "category": "Payroll",
+      "note": "Payroll for Oct 16 – Oct 31"
+    },
+    {
+      "id": "txn_004",
+      "counterpartyName": "Figma",
+      "amount": -540.0,
+      "postedAt": "2026-10-30T08:44:00Z",
+      "status": "posted",
+      "method": "Card",
+      "category": "Software",
+      "note": "Annual seats for design team"
+    },
+    {
+      "id": "txn_005",
+      "counterpartyName": "Acme Corp",
+      "amount": 32000.0,
+      "postedAt": "2026-10-29T18:20:00Z",
+      "status": "posted",
+      "method": "Wire",
+      "category": "Revenue",
+      "note": "Invoice #1042"
+    },
+    {
+      "id": "txn_006",
+      "counterpartyName": "Delta Air Lines",
+      "amount": -689.4,
+      "postedAt": "2026-10-29T11:37:00Z",
+      "status": "posted",
+      "method": "Card",
+      "category": "Travel",
+      "note": "Customer visit — Chicago"
+    },
+    {
+      "id": "txn_007",
+      "counterpartyName": "Blue Bottle Coffee",
+      "amount": -23.75,
+      "postedAt": "2026-10-29T08:02:00Z",
+      "status": "posted",
+      "method": "Card",
+      "category": "Meals",
+      "note": null
+    },
+    {
+      "id": "txn_008",
+      "counterpartyName": "WeWork",
+      "amount": -6800.0,
+      "postedAt": "2026-10-28T10:00:00Z",
+      "status": "posted",
+      "method": "ACH",
+      "category": "Rent",
+      "note": "November office rent"
+    },
+    {
+      "id": "txn_009",
+      "counterpartyName": "Google Workspace",
+      "amount": -216.0,
+      "postedAt": "2026-10-27T07:15:00Z",
+      "status": "posted",
+      "method": "Card",
+      "category": "Software",
+      "note": null
+    },
+    {
+      "id": "txn_010",
+      "counterpartyName": "Shopify",
+      "amount": 4875.32,
+      "postedAt": "2026-10-27T05:30:00Z",
+      "status": "posted",
+      "method": "ACH",
+      "category": "Revenue",
+      "note": "Store payout"
+    },
+    {
+      "id": "txn_011",
+      "counterpartyName": "Uber",
+      "amount": -41.2,
+      "postedAt": "2026-10-26T22:48:00Z",
+      "status": "failed",
+      "method": "Card",
+      "category": "Travel",
+      "note": "Card declined — merchant retry"
+    },
+    {
+      "id": "txn_012",
+      "counterpartyName": "Notion",
+      "amount": -96.0,
+      "postedAt": "2026-10-25T09:00:00Z",
+      "status": "posted",
+      "method": "Card",
+      "category": "Software",
+      "note": null
+    },
+    {
+      "id": "txn_013",
+      "counterpartyName": "Internal Revenue Service",
+      "amount": -15320.0,
+      "postedAt": "2026-10-24T15:00:00Z",
+      "status": "posted",
+      "method": "ACH",
+      "category": "Taxes",
+      "note": "Q3 estimated tax payment"
+    },
+    {
+      "id": "txn_014",
+      "counterpartyName": "Globex Inc",
+      "amount": 18500.0,
+      "postedAt": "2026-10-23T17:42:00Z",
+      "status": "posted",
+      "method": "Wire",
+      "category": "Revenue",
+      "note": "Invoice #1039"
+    },
+    {
+      "id": "txn_015",
+      "counterpartyName": "Slack",
+      "amount": -312.5,
+      "postedAt": "2026-10-22T06:10:00Z",
+      "status": "posted",
+      "method": "Card",
+      "category": "Software",
+      "note": null
+    },
+    {
+      "id": "txn_016",
+      "counterpartyName": "Apple",
+      "amount": -2499.0,
+      "postedAt": "2026-10-21T19:25:00Z",
+      "status": "posted",
+      "method": "Card",
+      "category": "Equipment",
+      "note": "MacBook Pro for new hire"
+    },
+    {
+      "id": "txn_017",
+      "counterpartyName": "Sweetgreen",
+      "amount": -86.4,
+      "postedAt": "2026-10-21T12:31:00Z",
+      "status": "posted",
+      "method": "Card",
+      "category": "Meals",
+      "note": "Team lunch"
+    },
+    {
+      "id": "txn_018",
+      "counterpartyName": "Hartford Insurance",
+      "amount": -1150.0,
+      "postedAt": "2026-10-20T10:00:00Z",
+      "status": "posted",
+      "method": "ACH",
+      "category": "Insurance",
+      "note": "General liability — monthly"
+    },
+    {
+      "id": "txn_019",
+      "counterpartyName": "Stripe",
+      "amount": 11980.45,
+      "postedAt": "2026-10-17T16:05:00Z",
+      "status": "posted",
+      "method": "ACH",
+      "category": "Revenue",
+      "note": "Weekly payout"
+    },
+    {
+      "id": "txn_020",
+      "counterpartyName": "Gusto Payroll",
+      "amount": -47995.1,
+      "postedAt": "2026-10-15T13:00:00Z",
+      "status": "posted",
+      "method": "ACH",
+      "category": "Payroll",
+      "note": "Payroll for Oct 1 – Oct 15"
+    },
+    {
+      "id": "txn_021",
+      "counterpartyName": "Comcast Business",
+      "amount": -189.99,
+      "postedAt": "2026-10-14T08:00:00Z",
+      "status": "posted",
+      "method": "ACH",
+      "category": "Utilities",
+      "note": null
+    },
+    {
+      "id": "txn_022",
+      "counterpartyName": "Initech LLC",
+      "amount": 7250.0,
+      "postedAt": "2026-10-13T14:18:00Z",
+      "status": "posted",
+      "method": "Check",
+      "category": "Revenue",
+      "note": "Check #5521"
+    },
+    {
+      "id": "txn_023",
+      "counterpartyName": "Marriott",
+      "amount": -412.88,
+      "postedAt": "2026-10-12T23:05:00Z",
+      "status": "posted",
+      "method": "Card",
+      "category": "Travel",
+      "note": null
+    },
+    {
+      "id": "txn_024",
+      "counterpartyName": "Stripe",
+      "amount": 10214.9,
+      "postedAt": "2026-10-10T16:05:00Z",
+      "status": "posted",
+      "method": "ACH",
+      "category": "Revenue",
+      "note": "Weekly payout"
+    }
+  ]
+}
