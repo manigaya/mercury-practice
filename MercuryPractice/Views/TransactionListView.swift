@@ -24,22 +24,28 @@ struct TransactionListView: View {
                 else{
                     List(viewModel.transactions){
                         transaction in
-                        HStack{
-                            VStack (alignment: .leading){
-                                Text(transaction.counterpartyName)
-        //                        Text("\(transaction.amount)")
-        //                        Text(transaction.amount, format: .currency(code: "USD"))
-                                HStack(spacing: 2) {
-                                    Text(transaction.amount > 0 ? "+" : "−")
-                                        .foregroundStyle(transaction.amount > 0 ? Color.green : Color.red)
-                                        .bold()
-                                    Text(abs(transaction.amount), format: .currency(code: "USD"))
-                                }
-        //                        Text("\(transaction.postedAt)")
-                                Text(transaction.postedAt.formatted(date:.abbreviated, time: .shortened))
-                            }
-                            
+                        NavigationLink{
+                            TransactionDetailView(transaction: transaction)
                         }
+                        label:{
+                            HStack{
+                                VStack (alignment: .leading){
+                                    Text(transaction.counterpartyName)
+            //                        Text("\(transaction.amount)")
+            //                        Text(transaction.amount, format: .currency(code: "USD"))
+                                    HStack(spacing: 2) {
+                                        Text(transaction.amount > 0 ? "+" : "−")
+                                            .foregroundStyle(transaction.amount > 0 ? Color.green : Color.red)
+                                            .bold()
+                                        Text(abs(transaction.amount), format: .currency(code: "USD"))
+                                    }
+            //                        Text("\(transaction.postedAt)")
+                                    Text(transaction.postedAt.formatted(date:.abbreviated, time: .shortened))
+                                }
+                                
+                            }
+                        }
+                        
                     }.refreshable {
                         await viewModel.load()
                     }
