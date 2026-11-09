@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BC91810130A2363800B349AA /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC91810030A2363800B349AA /* TransactionListViewModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		AA0000000000000000000001 /* MercuryPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MercuryPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC91810030A2363800B349AA /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		AA0000000000000000000004 = {
 			isa = PBXGroup;
 			children = (
+				BC91810030A2363800B349AA /* TransactionListViewModel.swift */,
 				AA0000000000000000000002 /* MercuryPractice */,
 				AA0000000000000000000005 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC91810130A2363800B349AA /* TransactionListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
