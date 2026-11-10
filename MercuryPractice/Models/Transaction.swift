@@ -2,7 +2,7 @@ import Foundation
 
 /// A single transaction on the account.
 /// Matches one item in the `transactions` array returned by `GET /transactions.json`.
-struct Transaction: Identifiable, Hashable {
+struct Transaction: Identifiable, Hashable, Decodable {
     let id: String
     let counterpartyName: String
     /// Positive = money in, negative = money out.
@@ -13,7 +13,7 @@ struct Transaction: Identifiable, Hashable {
     let category: String
     let note: String?
 
-    enum Status: String, Hashable {
+    enum Status: String, Hashable, Decodable {
         case posted
         case pending
         case failed
@@ -21,3 +21,6 @@ struct Transaction: Identifiable, Hashable {
 }
 
 // TODO: Transaction can't be decoded from JSON yet.
+struct TransactionsAPIResponse: Decodable{
+    let transactions:[Transaction]
+}
