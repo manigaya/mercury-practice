@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct MercuryPracticeApp: App {
+struct PracticeApp: App {
     var body: some Scene {
         WindowGroup {
             TransactionListView()
